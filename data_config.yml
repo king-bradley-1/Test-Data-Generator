@@ -1,0 +1,15 @@
+records: 50
+output_format: csv
+output_file: customer_data.csv
+fields:
+  name: full_name
+  email: email
+  date_between:
+    args:
+      start_date: 1980-01-01
+      end_date: 2000-12-31
+  country: country
+  pyfloat:
+    args:
+      min_value: 10
+      max_value: 1000
